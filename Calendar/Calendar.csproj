@@ -8,7 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="img\6324674.png" />
+    <None Remove="img\Adrenalin.png" />
+    <None Remove="img\Burn.png" />
+    <None Remove="img\Drive.png" />
+    <None Remove="img\Monster.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\6324674.png" />
+    <Resource Include="img\Adrenalin.png" />
+    <Resource Include="img\Burn.png" />
+    <Resource Include="img\Drive.png" />
+    <Resource Include="img\Monster.png" />
   </ItemGroup>
 
 </Project>
