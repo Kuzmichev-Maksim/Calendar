@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Calendar.energy"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Calendar"
+             mc:Ignorable="d" Width="400" Height="270">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="176*"/>
+            <RowDefinition Height="49*"/>
+        </Grid.RowDefinitions>
+
+
+        <Image x:Name="punktLogo" Source="/img/6324674.png"/>
+        <CheckBox x:Name="selectedBox" Grid.Row="1" Content="SOMETEXT" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" Padding="15" Checked="selectedBox_Checked" Unchecked="selectedBox_Unchecked" />
+    </Grid>
+</UserControl>
